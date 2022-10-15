@@ -25,7 +25,7 @@ const myChart = new Chart(ctx, {
 
     type: 'line',
     data: {
-        labels: ['WIN', 'LOSS', 'GALE-1', 'GALE-2'],
+        labels: ['WIN', 'LOSS', 'GALE-1', 'GALE-2', 'GALE-3', 'GALE4'],
         datasets: [{
             label: 'DESENPENHO DO ROBO',
             data: [win, loss, gale1, gale2, gale3, gale4],
